@@ -11,6 +11,6 @@ object RetrofitInit {
              .build()
 
 
-    val cepRepository: CepRepository = retrofitBuilder.create(CepRepository::class.java)
+    val cepRepository: CEP = retrofitBuilder.create(CEP::class.java)
 
 }
